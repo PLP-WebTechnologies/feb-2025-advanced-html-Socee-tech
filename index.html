@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="Lists, images, forms and tables">
+        <title>lists, images, tables and forms</title>
+    </head>
+    <body>
+        <h2>Ordered Lists-in roman numerals</h2>
+       <ol>
+        <dl>
+            <dt>Types of semiconductors</dt>
+            <dd>
+                <ol type="I">
+                    <li>Intrinsic semicondctor</li>
+                    <li>Extrinsic semiconductor</li>
+                </ol>
+            </dd>
+        </dl>
+       </ol>
+       <h2>IMAGE</h2>
+       <img src="https://render.fineartamerica.com/images/rendered/medium/canvas-print/15.5/20/mirror/break/images/artworkimages/medium/2/floral-lion-iii-balazs-solti-canvas-print.jpg" alt="Canvas image" height="600" width="400">
+       <h2>TABLE</h2>
+       <table border="1">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>address</td>
+                <td>mobile</td>
+                <td>emails</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>Imara daima</td>
+                <td>+254764986374</td>
+                <td>alice@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Johnson</td>
+                <td>Dandora</td>
+                <td>+254645375879</td>
+                <td>johnson67@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Willfred</td>
+                <td>Pipeline</td>
+                <td>+255657464839</td>
+                <td>willfred54@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Miles</td>
+                <td>Kasarani</td>
+                <td>+254647364537</td>
+                <td>miles@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Morales</td>
+                <td>Kariobangi</td>
+                <td>+254654389756</td>
+                <td>morales@outlook.com</td>
+            </tr>
+        </tbody>
+       </table>
+       <br><br>
+       <h2>FORM</h2>
+       <form>
+        <label for="name">Name:</label>
+        <input type="name" id="name" name="name" placeholder="e.g sospeter bisera">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="e.g someone@gmail.com">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <BR><BR>
+            <label>SUBJECTS</label>
+            <select name="subjects" id="subjects">
+                <option>--select subjects--</option>
+                <option value="maths">Mathematics</option>
+                <option value="eng">English</option>
+                <option value="french">French</option>
+                <option value="COMMS">Communication skills</option>
+            </select>
+            <!--end of drop down-->
+            <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender", value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <!--end of radio buttons-->
+        <br><br>
+        <label for="items issued">Check the items that have been issued:</label>
+        <input type="checkbox" name="items" value="uniform">uniform
+        <input type="checkbox" name="items" value="Tie">Tie
+        <input type="checkbox" name="items" value="shoes">School shoes
+        <input type="checkbox" name="items" value="socks">socks
+        <!--end of check box-->
+       </form>
+    </body>
+</html>
